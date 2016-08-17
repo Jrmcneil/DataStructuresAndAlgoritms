@@ -18,23 +18,12 @@ public class OrdArray {
   }
 
   public int find(long searchKey) {
-    int lowerBound = 0;
-    int upperBound = nElems - 1;
-    int curIn;
+    int curIn = searchHalves(nElems - 1, 0, searchKey);
 
-    while(true) {
-      curIn = (lowerBound + upperBound) / 2;
-      if(a[curIn] == searchKey) {
-        return curIn;
-      } else if(lowerBound > upperBound) {
-        return -1;
-      } else {
-        if(a[curIn] < searchKey) {
-          lowerBound = curIn + 1;
-        } else {
-          upperBound = curIn - 1;
-        }
-      }
+    if (a[curIn] == searchKey) {
+      return curIn;
+    } else {
+      return -1;
     }
   }
 
