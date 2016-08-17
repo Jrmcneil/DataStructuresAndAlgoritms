@@ -15,7 +15,7 @@ public class OrdArrayTest {
   @Before
   public void initialize() {
     testArrayOne = new OrdArray(30);
-    assertEquals(testArrayOne.size(), 0);
+    assertEquals(0, testArrayOne.size());
 
     testArrayOne.insert(55);
     testArrayOne.insert(33);
@@ -28,22 +28,22 @@ public class OrdArrayTest {
   //2.4
   @Test
   public void insert() {
-    assertEquals(testArrayOne.size(), 6);
+    assertEquals(6, testArrayOne.size());
   }
 
   @Test
   public void find() {
-    assertEquals(testArrayOne.find(22), 1);
-    assertEquals(testArrayOne.find(55), 3);
+    assertEquals(1, testArrayOne.find(22));
+    assertEquals(3, testArrayOne.find(55));
   }
 
   @Test
   public void delete() {
     testArrayOne.delete(22);
 
-    assertEquals(testArrayOne.find(22), -1);
-    assertEquals(testArrayOne.size(), 5);
-    assertEquals(testArrayOne.find(33), 1);
+    assertEquals(-1, testArrayOne.find(22));
+    assertEquals(5, testArrayOne.size());
+    assertEquals(1, testArrayOne.find(33));
   }
 
   //2.5
@@ -58,9 +58,9 @@ public class OrdArrayTest {
 
     testArrayOne.merge(testArrayTwo);
 
-    assertEquals(testArrayOne.size(), 10);
-    assertEquals(testArrayOne.find(3), 0);
-    assertEquals(testArrayOne.find(129), 9);
-    assertEquals(testArrayOne.find(56), 5);
+    assertEquals(10, testArrayOne.size());
+    assertEquals(0, testArrayOne.find(3));
+    assertEquals(9, testArrayOne.find(129));
+    assertEquals(5, testArrayOne.find(56));
   }
 }
