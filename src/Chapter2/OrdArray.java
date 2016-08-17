@@ -27,7 +27,7 @@ public class OrdArray {
       if(a[curIn] == searchKey) {
         return curIn;
       } else if(lowerBound > upperBound) {
-        return nElems;
+        return -1;
       } else {
         if(a[curIn] < searchKey) {
           lowerBound = curIn + 1;
