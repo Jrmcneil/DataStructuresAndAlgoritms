@@ -40,17 +40,30 @@ public class OrdArray {
 
   public void insert(long value) {
     int j;
-    for(j=0; j<nElems; j++) {
-      if(a[j] > value)
-        break;
-    }
+
+    j = searchHalves(nElems, 0, value);
 
     for(int k=nElems; k>j; k--) {
       a[k] = a[k - 1];
     }
 
     a[j] = value;
+
     nElems++;
+  }
+
+  private int searchHalves(int upperBound, int lowerBound, long value) {
+    int position = (upperBound + lowerBound) / 2;
+
+    if (upperBound == position) {
+      return position;
+    }
+
+    if (a[position] < value) {
+      return searchHalves(upperBound, position + 1, value);
+    } else {
+      return searchHalves(position, lowerBound, value);
+    }
   }
 
   public boolean delete(long value) {

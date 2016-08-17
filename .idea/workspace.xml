@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b360f7a7-9744-4e7a-bd60-ffc54e105b83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/Chapter2/OrdArrayTest.java" afterPath="$PROJECT_DIR$/spec/Chapter2/OrdArrayTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter2/OrdArray.java" afterPath="$PROJECT_DIR$/src/Chapter2/OrdArray.java" />
     </list>
     <ignored path="Data Structures and Algoritms.iws" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OrdArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter2/OrdArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="370">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               <folding>
                 <element signature="e#240#241#0" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
@@ -50,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrdArrayTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OrdArrayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/Chapter2/OrdArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -97,8 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Chapter2/OrderedApp.java" />
-        <option value="$PROJECT_DIR$/src/Chapter2/OrdArray.java" />
         <option value="$PROJECT_DIR$/spec/Chapter2/OrdArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter2/OrdArray.java" />
       </list>
     </option>
   </component>
@@ -595,9 +594,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.delete" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.find" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.insert" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.insert" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.delete" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.find" />
         <item index="4" class="java.lang.String" itemvalue="Application.OrderedApp" />
       </list>
     </recent_temporary>
@@ -619,6 +618,15 @@
     <history-entry file="OrdArrayTest - 2016.08.17 at 14h 58m 12s.xml">
       <configuration name="OrdArrayTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrdArrayTest - 2016.08.17 at 17h 58m 09s.xml">
+      <configuration name="OrdArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdArrayTest - 2016.08.17 at 17h 59m 07s.xml">
+      <configuration name="OrdArrayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrdArrayTest - 2016.08.17 at 18h 04m 45s.xml">
+      <configuration name="OrdArrayTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="OrdArrayTest_delete - 2016.08.17 at 14h 55m 52s.xml">
       <configuration name="OrdArrayTest.delete" configurationId="JUnit" />
     </history-entry>
@@ -636,15 +644,6 @@
     </history-entry>
     <history-entry file="OrdArrayTest_find - 2016.08.17 at 14h 53m 07s.xml">
       <configuration name="OrdArrayTest.find" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrdArrayTest_insert - 2016.08.17 at 14h 32m 48s.xml">
-      <configuration name="OrdArrayTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrdArrayTest_insert - 2016.08.17 at 14h 32m 50s.xml">
-      <configuration name="OrdArrayTest.insert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrdArrayTest_insert - 2016.08.17 at 14h 37m 18s.xml">
-      <configuration name="OrdArrayTest.insert" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -724,17 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter2/OrdArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/Chapter2/OrdArrayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -743,6 +731,17 @@
             <element signature="imports" expanded="true" />
             <element signature="e#517#518#0" expanded="true" />
             <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter2/OrdArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
