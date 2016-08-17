@@ -13,6 +13,10 @@ public class OrdArray {
     nElems = 0;
   }
 
+  public long[] getArray() {
+    return a;
+  }
+
   public int size() {
     return nElems;
   }
@@ -75,5 +79,12 @@ public class OrdArray {
     }
 
     System.out.println(" ");
+  }
+
+  public void merge(OrdArray secondArray) {
+    long[] tempArray = secondArray.getArray();
+    for (int j = 0; j < secondArray.size(); j++) {
+      this.insert(tempArray[j]);
+    }
   }
 }

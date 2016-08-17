@@ -10,39 +10,57 @@ import static org.junit.Assert.*;
  */
 public class OrdArrayTest {
 
-  OrdArray testArray;
+  OrdArray testArrayOne;
 
   @Before
   public void initialize() {
-    testArray = new OrdArray(10);
-    assertEquals(testArray.size(), 0);
+    testArrayOne = new OrdArray(30);
+    assertEquals(testArrayOne.size(), 0);
 
-    testArray.insert(55);
-    testArray.insert(33);
-    testArray.insert(11);
-    testArray.insert(22);
-    testArray.insert(77);
-    testArray.insert(66);
+    testArrayOne.insert(55);
+    testArrayOne.insert(33);
+    testArrayOne.insert(11);
+    testArrayOne.insert(22);
+    testArrayOne.insert(77);
+    testArrayOne.insert(66);
   }
 
   //2.4
   @Test
   public void insert() {
-    assertEquals(testArray.size(), 6);
+    assertEquals(testArrayOne.size(), 6);
   }
 
   @Test
   public void find() {
-    assertEquals(testArray.find(22), 1);
-    assertEquals(testArray.find(55), 3);
+    assertEquals(testArrayOne.find(22), 1);
+    assertEquals(testArrayOne.find(55), 3);
   }
 
   @Test
   public void delete() {
-    testArray.delete(22);
+    testArrayOne.delete(22);
 
-    assertEquals(testArray.find(22), -1);
-    assertEquals(testArray.size(), 5);
-    assertEquals(testArray.find(33), 1);
+    assertEquals(testArrayOne.find(22), -1);
+    assertEquals(testArrayOne.size(), 5);
+    assertEquals(testArrayOne.find(33), 1);
+  }
+
+  //2.5
+  @Test
+  public void merge() {
+    OrdArray testArrayTwo = new OrdArray(30);
+
+    testArrayTwo.insert(3);
+    testArrayTwo.insert(56);
+    testArrayTwo.insert(66);
+    testArrayTwo.insert(129);
+
+    testArrayOne.merge(testArrayTwo);
+
+    assertEquals(testArrayOne.size(), 10);
+    assertEquals(testArrayOne.find(3), 0);
+    assertEquals(testArrayOne.find(129), 9);
+    assertEquals(testArrayOne.find(56), 5);
   }
 }
