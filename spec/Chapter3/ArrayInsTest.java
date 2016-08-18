@@ -39,6 +39,6 @@ public class ArrayInsTest {
 
   @Test
   public void median() {
-    assertEquals(44, arr.median());
+    assertEquals(55, arr.median());
   }
 }

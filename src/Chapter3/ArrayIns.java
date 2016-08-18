@@ -39,4 +39,9 @@ public class ArrayIns {
     }
     System.out.println(" ");
   }
+
+  public long median() {
+    this.insertionSort();
+    return a[nElems/2];
+  }
 }
