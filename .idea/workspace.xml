@@ -27,25 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArrayIns.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter3/ArrayIns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="220">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+              <folding>
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayInsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayInsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/Chapter3/ArrayInsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="666">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/Chapter2/OrderedApp.java" />
         <option value="$PROJECT_DIR$/src/Chapter2/OrdArray.java" />
         <option value="$PROJECT_DIR$/spec/Chapter2/OrdArrayTest.java" />
-        <option value="$PROJECT_DIR$/src/Chapter3/ArrayIns.java" />
         <option value="$PROJECT_DIR$/spec/Chapter3/ArrayInsTest.java" />
+        <option value="$PROJECT_DIR$/src/Chapter3/ArrayIns.java" />
       </list>
     </option>
   </component>
@@ -244,33 +247,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ArrayInsTest.median">
-    <configuration default="false" name="OrdArrayTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="data-structures-and-algoritms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="Chapter2.OrdArrayTest" />
-      <option name="METHOD_NAME" value="insert" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArrayInsTest.noDuplicates">
     <configuration default="false" name="OrdArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -362,6 +339,32 @@
       <option name="PACKAGE_NAME" value="Chapter3" />
       <option name="MAIN_CLASS_NAME" value="Chapter3.ArrayInsTest" />
       <option name="METHOD_NAME" value="median" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArrayInsTest.noDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="data-structures-and-algoritms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter3" />
+      <option name="MAIN_CLASS_NAME" value="Chapter3.ArrayInsTest" />
+      <option name="METHOD_NAME" value="noDuplicates" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -620,19 +623,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.insert" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.merge" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayInsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.median" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.merge" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayInsTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.median" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.noDuplicates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.median" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayInsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.merge" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.insert" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.noDuplicates" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.median" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayInsTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OrdArrayTest.merge" />
       </list>
     </recent_temporary>
   </component>
@@ -650,35 +653,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayInsTest - 2016.08.18 at 12h 47m 27s.xml">
-      <configuration name="ArrayInsTest" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 06m 06s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayInsTest_median - 2016.08.18 at 12h 56m 15s.xml">
-      <configuration name="ArrayInsTest.median" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 16m 04s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayInsTest_median - 2016.08.18 at 12h 56m 34s.xml">
-      <configuration name="ArrayInsTest.median" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 17m 03s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest - 2016.08.17 at 19h 07m 59s.xml">
-      <configuration name="OrdArrayTest" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 19m 08s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest_merge - 2016.08.17 at 18h 51m 12s.xml">
-      <configuration name="OrdArrayTest.merge" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 20m 13s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest_merge - 2016.08.17 at 18h 52m 29s.xml">
-      <configuration name="OrdArrayTest.merge" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 20m 55s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest_merge - 2016.08.17 at 18h 53m 59s.xml">
-      <configuration name="OrdArrayTest.merge" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 20m 57s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest_merge - 2016.08.17 at 18h 54m 35s.xml">
-      <configuration name="OrdArrayTest.merge" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 21m 52s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest_merge - 2016.08.17 at 18h 54m 53s.xml">
-      <configuration name="OrdArrayTest.merge" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 22m 40s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdArrayTest_merge - 2016.08.17 at 18h 56m 39s.xml">
-      <configuration name="OrdArrayTest.merge" configurationId="JUnit" />
+    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 29m 06s.xml">
+      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -710,6 +713,32 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23680556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -724,7 +753,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -785,22 +814,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter3/ArrayIns.java">
+    <entry file="file://$PROJECT_DIR$/spec/Chapter3/ArrayInsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="666">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Chapter3/ArrayInsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter3/ArrayIns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="220">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
           </folding>
         </state>
       </provider>

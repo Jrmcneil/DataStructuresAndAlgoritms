@@ -29,16 +29,30 @@ public class ArrayInsTest {
     arr.insert(11);
     arr.insert(66);
     arr.insert(33);
-
-    arr.display();
-
-    arr.insertionSort();
-
-    arr.display();
   }
 
+  //3.2
   @Test
   public void median() {
     assertEquals(55, arr.median());
+  }
+
+  //3.3
+  @Test
+  public void noDuplicates() {
+    long[] temp = new long[100];
+
+    arr.insertionSort();
+    System.arraycopy(arr.getArray(), 0, temp, 0, arr.getArray().length);
+
+    arr.insert(88);
+    arr.insert(55);
+    arr.insert(99);
+    arr.insert(99);
+    arr.insert(00);
+    arr.insertionSort();
+    arr.noDups();
+    arr.display();
+    assertArrayEquals(temp, arr.getArray());
   }
 }
