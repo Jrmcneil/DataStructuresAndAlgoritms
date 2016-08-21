@@ -5,7 +5,17 @@ package Chapter4;
  */
 public class Deque {
 
+  private int size = 0;
+
   public boolean isEmpty() {
-    return true;
+    return size > 0;
+  }
+
+  public void insert(long value) {
+    size++;
+  }
+
+  public int size() {
+    return size;
   }
 }

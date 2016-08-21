@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b360f7a7-9744-4e7a-bd60-ffc54e105b83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Chapter4/Deque.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" afterPath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter4/Deque.java" afterPath="$PROJECT_DIR$/src/Chapter4/Deque.java" />
     </list>
     <ignored path="Data Structures and Algoritms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,26 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DequeTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DequeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="495">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -273,85 +278,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DequeTest.isEmpty">
-    <configuration default="false" name="OrdArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="data-structures-and-algoritms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter2" />
-      <option name="MAIN_CLASS_NAME" value="Chapter2.OrdArrayTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayInsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="data-structures-and-algoritms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.ArrayInsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArrayInsTest.median" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="data-structures-and-algoritms" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Chapter3" />
-      <option name="MAIN_CLASS_NAME" value="Chapter3.ArrayInsTest" />
-      <option name="METHOD_NAME" value="median" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DequeTest.size">
     <configuration default="false" name="ArrayInsTest.noDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -391,6 +318,84 @@
       <option name="PACKAGE_NAME" value="Chapter4" />
       <option name="MAIN_CLASS_NAME" value="Chapter4.DequeTest" />
       <option name="METHOD_NAME" value="isEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DequeTest.isEmptyWhenEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="data-structures-and-algoritms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.DequeTest" />
+      <option name="METHOD_NAME" value="isEmptyWhenEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DequeTest.isNotEmptyWhenNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="data-structures-and-algoritms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.DequeTest" />
+      <option name="METHOD_NAME" value="isNotEmptyWhenNot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DequeTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="data-structures-and-algoritms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Chapter4" />
+      <option name="MAIN_CLASS_NAME" value="Chapter4.DequeTest" />
+      <option name="METHOD_NAME" value="size" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -649,19 +654,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayInsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.median" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.noDuplicates" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DequeTest.isEmpty" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.noDuplicates" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DequeTest.isEmpty" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DequeTest.isEmptyWhenEmpty" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DequeTest.isNotEmptyWhenNot" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DequeTest.size" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DequeTest.isEmpty" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.noDuplicates" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.median" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ArrayInsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OrdArrayTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DequeTest.size" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DequeTest.isNotEmptyWhenNot" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DequeTest.isEmptyWhenEmpty" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DequeTest.isEmpty" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ArrayInsTest.noDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -679,12 +684,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 17m 03s.xml">
-      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 19m 08s.xml">
-      <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayInsTest_noDuplicates - 2016.08.18 at 14h 20m 13s.xml">
       <configuration name="ArrayInsTest.noDuplicates" configurationId="JUnit" />
     </history-entry>
@@ -708,6 +707,12 @@
     </history-entry>
     <history-entry file="DequeTest_isEmpty - 2016.08.21 at 15h 21m 46s.xml">
       <configuration name="DequeTest.isEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DequeTest_isNotEmptyWhenNot - 2016.08.21 at 16h 05m 00s.xml">
+      <configuration name="DequeTest.isNotEmptyWhenNot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DequeTest_size - 2016.08.21 at 16h 08m 16s.xml">
+      <configuration name="DequeTest.size" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -863,23 +868,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
+    <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="495">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
