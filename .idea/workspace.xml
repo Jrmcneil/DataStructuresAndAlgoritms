@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b360f7a7-9744-4e7a-bd60-ffc54e105b83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" afterPath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter4/Deque.java" afterPath="$PROJECT_DIR$/src/Chapter4/Deque.java" />
     </list>
     <ignored path="Data Structures and Algoritms.iws" />
@@ -27,25 +26,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Deque.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="420">
+              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#680#681#0" expanded="true" />
                 <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1482#1483#0" expanded="true" />
+                <element signature="e#1440#1441#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DequeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DequeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -560,9 +559,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DequeTest - 2016.08.22 at 17h 30m 00s.xml">
-      <configuration name="DequeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DequeTest - 2016.08.22 at 18h 07m 57s.xml">
       <configuration name="DequeTest" configurationId="JUnit" />
     </history-entry>
@@ -570,6 +566,9 @@
       <configuration name="DequeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DequeTest - 2016.08.22 at 18h 10m 32s.xml">
+      <configuration name="DequeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DequeTest - 2016.08.22 at 18h 13m 13s.xml">
       <configuration name="DequeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DequeTest_removeRight - 2016.08.22 at 17h 31m 32s.xml">
@@ -737,22 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1482#1483#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -761,6 +744,22 @@
             <element signature="imports" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
             <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
           </folding>
         </state>
       </provider>

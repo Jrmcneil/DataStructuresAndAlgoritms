@@ -40,10 +40,8 @@ public class Deque {
     return size;
   }
 
-  public long removeLeft() throws RuntimeException {
-    if (isEmpty()) {
-      throw new RuntimeException();
-    }
+  public long removeLeft() {
+    throwIfEmpty();
     size--;
     int temp = front;
     front = incrementPosition(front);
@@ -58,10 +56,14 @@ public class Deque {
     return check;
   }
 
-  public long removeRight() throws RuntimeException {
+  private void throwIfEmpty() throws RuntimeException {
     if (isEmpty()) {
       throw new RuntimeException();
     }
+  }
+
+  public long removeRight() {
+    throwIfEmpty();
     size--;
     rear = decrementPosition(rear);
     return container[rear];
