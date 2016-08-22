@@ -37,4 +37,15 @@ public class DequeTest {
 
   assertEquals(1, testDeque.size());
  }
+
+ @Test
+ public void removeWhenNotEmpty() {
+  testDeque.insert(11);
+  testDeque.insert(55);
+
+  assertEquals(55, testDeque.remove());
+  assertEquals(1, testDeque.size());
+  assertEquals(11, testDeque.remove());
+  assertEquals(0, testDeque.size());
+ }
 }
