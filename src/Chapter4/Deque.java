@@ -63,7 +63,7 @@ public class Deque {
 
   public int decrementPosition(int marker) {
     int check = marker - 1;
-    if (check == 0) {
+    if (check == -1) {
       check = maxSize - 1;
     }
 

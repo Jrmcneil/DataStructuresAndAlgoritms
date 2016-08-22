@@ -107,4 +107,17 @@ public class DequeTest {
 
     assertEquals(22, testDeque.removeRight());
   }
+
+  @Test
+  public void removeRightIfWrapped() {
+    testDeque.insertRight(11);
+    testDeque.insertRight(44);
+    testDeque.insertRight(55);
+    testDeque.insertRight(66);
+    testDeque.insertRight(77);
+    testDeque.removeLeft();
+    testDeque.insertRight(22);
+
+    assertEquals(22, testDeque.removeRight());
+  }
 }
