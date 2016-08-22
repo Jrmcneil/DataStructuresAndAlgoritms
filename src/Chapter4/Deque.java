@@ -28,7 +28,7 @@ public class Deque {
   }
 
   public void insert(long value) throws RuntimeException {
-    if (size == maxSize) {
+    if (isFull()) {
       throw new RuntimeException();
     }
     size++;
