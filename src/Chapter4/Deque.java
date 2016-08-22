@@ -8,11 +8,12 @@ import java.awt.*;
 public class Deque {
 
   private int size;
+  private int front;
   private long[] container;
 
   public Deque() {
     size = 0;
-
+    front = 0;
     container = new long[10];
   }
 
@@ -30,6 +31,9 @@ public class Deque {
   }
 
   public long remove() {
-   return container[--size];
+    size--;
+    return container[front++];
   }
+
+
 }
