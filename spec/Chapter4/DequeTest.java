@@ -32,7 +32,7 @@ public class DequeTest {
 
  @Test
  public void isNotEmptyWhenNot() {
-   testDeque.insert(11);
+   testDeque.insertLeft(11);
 
    assertEquals(false, testDeque.isEmpty());
  }
@@ -41,15 +41,15 @@ public class DequeTest {
  public void size() {
    assertEquals(0, testDeque.size());
 
-   testDeque.insert(11);
+   testDeque.insertLeft(11);
 
    assertEquals(1, testDeque.size());
  }
 
  @Test
  public void removeWhenNotEmpty() {
-   testDeque.insert(11);
-   testDeque.insert(55);
+   testDeque.insertLeft(11);
+   testDeque.insertLeft(55);
 
    assertEquals(11, testDeque.remove());
    assertEquals(1, testDeque.size());
@@ -59,14 +59,14 @@ public class DequeTest {
 
 
  @Test
- public void insertingBeyondMaxSizeWrapsValues() {
-   testDeque.insert(11);
-   testDeque.insert(44);
-   testDeque.insert(55);
-   testDeque.insert(66);
-   testDeque.insert(77);
+ public void insertLeftingBeyondMaxSizeWrapsValues() {
+   testDeque.insertLeft(11);
+   testDeque.insertLeft(44);
+   testDeque.insertLeft(55);
+   testDeque.insertLeft(66);
+   testDeque.insertLeft(77);
    testDeque.remove();
-   testDeque.insert(22);
+   testDeque.insertLeft(22);
 
    assertEquals(44, testDeque.remove());
    assertEquals(55, testDeque.remove());
@@ -77,25 +77,25 @@ public class DequeTest {
 
   @Test
   public void exceptionThrownIfFull() {
-    testDeque.insert(11);
-    testDeque.insert(11);
-    testDeque.insert(11);
-    testDeque.insert(11);
-    testDeque.insert(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
 
     thrown.expect(Exception.class);
-    testDeque.insert(11);
+    testDeque.insertLeft(11);
   }
 
 
   @Test
   public void isFull() {
     assertEquals(false, testDeque.isFull());
-    testDeque.insert(11);
-    testDeque.insert(11);
-    testDeque.insert(11);
-    testDeque.insert(11);
-    testDeque.insert(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
 
     assertEquals(true, testDeque.isFull());
   }
