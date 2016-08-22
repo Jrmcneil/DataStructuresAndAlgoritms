@@ -55,6 +55,21 @@ public class Deque {
     return check;
   }
 
+  public long removeRight() {
+    size--;
+    rear = decrementPosition(rear);
+    return container[rear];
+  }
+
+  public int decrementPosition(int marker) {
+    int check = marker - 1;
+    if (check == 0) {
+      check = maxSize - 1;
+    }
+
+    return check;
+  }
+
   public boolean isFull() {
     return size == maxSize;
   }

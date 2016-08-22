@@ -99,4 +99,12 @@ public class DequeTest {
 
     assertEquals(true, testDeque.isFull());
   }
+
+  @Test
+  public void removeRight() {
+    testDeque.insertRight(11);
+    testDeque.insertRight(22);
+
+    assertEquals(22, testDeque.removeRight());
+  }
 }
