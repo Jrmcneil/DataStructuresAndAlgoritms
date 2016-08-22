@@ -1,6 +1,7 @@
 package Chapter4;
 
 import java.awt.*;
+import java.util.Arrays;
 
 /**
  * Class for Deque (double ended queue)
@@ -9,12 +10,16 @@ public class Deque {
 
   private int size;
   private int front;
+  private int rear;
+  private int maxSize;
   private long[] container;
 
-  public Deque() {
+  public Deque(int containerSize) {
     size = 0;
     front = 0;
-    container = new long[10];
+    rear = 0;
+    maxSize = containerSize;
+    container = new long[maxSize];
   }
 
 
@@ -23,7 +28,13 @@ public class Deque {
   }
 
   public void insert(long value) {
-    container[size++] = value;
+    size++;
+    int temp = rear;
+    rear++;
+    if (rear == maxSize) {
+      rear = 0;
+    }
+    container[temp] = value;
   }
 
   public int size() {
@@ -32,7 +43,12 @@ public class Deque {
 
   public long remove() {
     size--;
-    return container[front++];
+    int temp = front;
+    front++;
+    if (front == maxSize) {
+      front = 0;
+    }
+    return container[temp];
   }
 
 
