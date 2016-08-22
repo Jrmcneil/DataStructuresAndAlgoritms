@@ -40,7 +40,10 @@ public class Deque {
     return size;
   }
 
-  public long removeLeft() {
+  public long removeLeft() throws RuntimeException {
+    if (isEmpty()) {
+      throw new RuntimeException();
+    }
     size--;
     int temp = front;
     front = incrementPosition(front);

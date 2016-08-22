@@ -57,6 +57,12 @@ public class DequeTest {
    assertEquals(0, testDeque.size());
  }
 
+ @Test
+ public void throwWhenRemovingLeftEmpty() {
+   thrown.expect(RuntimeException.class);
+   testDeque.removeLeft();
+ }
+
 
  @Test
  public void insertRightingBeyondMaxSizeWrapsValues() {
@@ -76,14 +82,14 @@ public class DequeTest {
  }
 
   @Test
-  public void exceptionThrownIfFull() {
+  public void exceptionThrownIfInsertingWhenFull() {
     testDeque.insertRight(11);
     testDeque.insertRight(11);
     testDeque.insertRight(11);
     testDeque.insertRight(11);
     testDeque.insertRight(11);
 
-    thrown.expect(Exception.class);
+    thrown.expect(RuntimeException.class);
     testDeque.insertRight(11);
   }
 
@@ -120,4 +126,6 @@ public class DequeTest {
 
     assertEquals(22, testDeque.removeRight());
   }
+
+
 }
