@@ -58,7 +58,10 @@ public class Deque {
     return check;
   }
 
-  public long removeRight() {
+  public long removeRight() throws RuntimeException {
+    if (isEmpty()) {
+      throw new RuntimeException();
+    }
     size--;
     rear = decrementPosition(rear);
     return container[rear];

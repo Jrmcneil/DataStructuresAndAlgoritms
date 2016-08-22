@@ -30,16 +30,16 @@
       <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            <state relative-caret-position="430">
+              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#680#681#0" expanded="true" />
                 <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#1363#1364#0" expanded="true" />
-                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1482#1483#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,8 +48,8 @@
       <file leaf-file-name="DequeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#456#457#0" expanded="true" />
@@ -566,11 +566,11 @@
     <history-entry file="DequeTest - 2016.08.22 at 18h 07m 57s.xml">
       <configuration name="DequeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DequeTest_insertRightingBeyondMaxSizeWrapsValues - 2016.08.22 at 15h 47m 55s.xml">
-      <configuration name="DequeTest.insertRightingBeyondMaxSizeWrapsValues" configurationId="JUnit" />
+    <history-entry file="DequeTest - 2016.08.22 at 18h 09m 28s.xml">
+      <configuration name="DequeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DequeTest_isFull - 2016.08.22 at 15h 44m 49s.xml">
-      <configuration name="DequeTest.isFull" configurationId="JUnit" />
+    <history-entry file="DequeTest - 2016.08.22 at 18h 10m 32s.xml">
+      <configuration name="DequeTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DequeTest_removeRight - 2016.08.22 at 17h 31m 32s.xml">
       <configuration name="DequeTest.removeRight" configurationId="JUnit" />
@@ -739,24 +739,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        <state relative-caret-position="430">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
             <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1482#1483#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />

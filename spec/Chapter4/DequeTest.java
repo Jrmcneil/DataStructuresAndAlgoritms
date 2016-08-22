@@ -128,4 +128,9 @@ public class DequeTest {
   }
 
 
+  @Test
+  public void throwWhenRemovingRightEmpty() {
+    thrown.expect(RuntimeException.class);
+    testDeque.removeRight();
+  }
 }
