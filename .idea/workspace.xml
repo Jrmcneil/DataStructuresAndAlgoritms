@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b360f7a7-9744-4e7a-bd60-ffc54e105b83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" afterPath="$PROJECT_DIR$/spec/Chapter4/DequeTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Chapter4/Deque.java" afterPath="$PROJECT_DIR$/src/Chapter4/Deque.java" />
     </list>
     <ignored path="Data Structures and Algoritms.iws" />
@@ -30,14 +29,14 @@
       <file leaf-file-name="Deque.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
-              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,8 +45,8 @@
       <file leaf-file-name="DequeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+            <state relative-caret-position="448">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
@@ -683,12 +682,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DequeTest_insertingBeyondMaxSizeWrapsValues - 2016.08.22 at 13h 59m 35s.xml">
-      <configuration name="DequeTest.insertingBeyondMaxSizeWrapsValues" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DequeTest_insertingBeyondMaxSizeWrapsValues - 2016.08.22 at 14h 00m 22s.xml">
-      <configuration name="DequeTest.insertingBeyondMaxSizeWrapsValues" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DequeTest_insertingBeyondMaxSizeWrapsValues - 2016.08.22 at 14h 01m 01s.xml">
       <configuration name="DequeTest.insertingBeyondMaxSizeWrapsValues" configurationId="JUnit" />
     </history-entry>
@@ -712,6 +705,12 @@
     </history-entry>
     <history-entry file="DequeTest_insertingBeyondMaxSizeWrapsValues - 2016.08.22 at 14h 25m 52s.xml">
       <configuration name="DequeTest.insertingBeyondMaxSizeWrapsValues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DequeTest_insertingBeyondMaxSizeWrapsValues - 2016.08.22 at 14h 42m 00s.xml">
+      <configuration name="DequeTest.insertingBeyondMaxSizeWrapsValues" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DequeTest_removeWhenNotEmpty - 2016.08.22 at 14h 40m 32s.xml">
+      <configuration name="DequeTest.removeWhenNotEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -862,22 +861,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Chapter4/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        <state relative-caret-position="165">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/Chapter4/DequeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        <state relative-caret-position="448">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />

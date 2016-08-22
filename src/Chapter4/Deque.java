@@ -30,10 +30,7 @@ public class Deque {
   public void insert(long value) {
     size++;
     int temp = rear;
-    rear++;
-    if (rear == maxSize) {
-      rear = 0;
-    }
+    rear = incrementPosition(rear);
     container[temp] = value;
   }
 
@@ -44,11 +41,16 @@ public class Deque {
   public long remove() {
     size--;
     int temp = front;
-    front++;
-    if (front == maxSize) {
-      front = 0;
-    }
+    front = incrementPosition(front);
     return container[temp];
+  }
+
+  private int incrementPosition(int marker) {
+    int check = marker + 1;
+    if (check == maxSize) {
+      check = 0;
+    }
+    return check;
   }
 
 
