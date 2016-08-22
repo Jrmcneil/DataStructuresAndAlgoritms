@@ -27,11 +27,13 @@ public class Deque {
     return size == 0;
   }
 
-  public void insert(long value) {
+  public void insert(long value) throws RuntimeException {
+    if (size == maxSize) {
+      throw new RuntimeException();
+    }
     size++;
-    int temp = rear;
+    container[rear] = value;
     rear = incrementPosition(rear);
-    container[temp] = value;
   }
 
   public int size() {
@@ -52,6 +54,4 @@ public class Deque {
     }
     return check;
   }
-
-
 }

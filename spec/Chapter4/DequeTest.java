@@ -1,7 +1,10 @@
 package Chapter4;
 
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
+import org.junit.runner.notification.RunListener;
 
 import static org.junit.Assert.*;
 
@@ -13,6 +16,9 @@ public class DequeTest {
  Deque testDeque;
 
  private final int CONTAINER_SIZE = 5;
+
+ @Rule
+ public ExpectedException thrown = ExpectedException.none();
 
  @Before
  public void initialize() {
@@ -68,4 +74,16 @@ public class DequeTest {
    assertEquals(77, testDeque.remove());
    assertEquals(22, testDeque.remove());
  }
+
+  @Test
+  public void exceptionThrownIfFull() {
+    testDeque.insert(11);
+    testDeque.insert(11);
+    testDeque.insert(11);
+    testDeque.insert(11);
+    testDeque.insert(11);
+
+    thrown.expect(Exception.class);
+    testDeque.insert(11);
+  }
 }
