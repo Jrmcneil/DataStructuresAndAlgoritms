@@ -86,4 +86,17 @@ public class DequeTest {
     thrown.expect(Exception.class);
     testDeque.insert(11);
   }
+
+
+  @Test
+  public void isFull() {
+    assertEquals(false, testDeque.isFull());
+    testDeque.insert(11);
+    testDeque.insert(11);
+    testDeque.insert(11);
+    testDeque.insert(11);
+    testDeque.insert(11);
+
+    assertEquals(true, testDeque.isFull());
+  }
 }

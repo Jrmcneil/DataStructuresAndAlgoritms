@@ -54,4 +54,8 @@ public class Deque {
     }
     return check;
   }
+
+  public boolean isFull() {
+    return size == maxSize;
+  }
 }
