@@ -32,7 +32,7 @@ public class DequeTest {
 
  @Test
  public void isNotEmptyWhenNot() {
-   testDeque.insertLeft(11);
+   testDeque.insertRight(11);
 
    assertEquals(false, testDeque.isEmpty());
  }
@@ -41,61 +41,61 @@ public class DequeTest {
  public void size() {
    assertEquals(0, testDeque.size());
 
-   testDeque.insertLeft(11);
+   testDeque.insertRight(11);
 
    assertEquals(1, testDeque.size());
  }
 
  @Test
- public void removeWhenNotEmpty() {
-   testDeque.insertLeft(11);
-   testDeque.insertLeft(55);
+ public void removeLeftWhenNotEmpty() {
+   testDeque.insertRight(11);
+   testDeque.insertRight(55);
 
-   assertEquals(11, testDeque.remove());
+   assertEquals(11, testDeque.removeLeft());
    assertEquals(1, testDeque.size());
-   assertEquals(55, testDeque.remove());
+   assertEquals(55, testDeque.removeLeft());
    assertEquals(0, testDeque.size());
  }
 
 
  @Test
- public void insertLeftingBeyondMaxSizeWrapsValues() {
-   testDeque.insertLeft(11);
-   testDeque.insertLeft(44);
-   testDeque.insertLeft(55);
-   testDeque.insertLeft(66);
-   testDeque.insertLeft(77);
-   testDeque.remove();
-   testDeque.insertLeft(22);
+ public void insertRightingBeyondMaxSizeWrapsValues() {
+   testDeque.insertRight(11);
+   testDeque.insertRight(44);
+   testDeque.insertRight(55);
+   testDeque.insertRight(66);
+   testDeque.insertRight(77);
+   testDeque.removeLeft();
+   testDeque.insertRight(22);
 
-   assertEquals(44, testDeque.remove());
-   assertEquals(55, testDeque.remove());
-   assertEquals(66, testDeque.remove());
-   assertEquals(77, testDeque.remove());
-   assertEquals(22, testDeque.remove());
+   assertEquals(44, testDeque.removeLeft());
+   assertEquals(55, testDeque.removeLeft());
+   assertEquals(66, testDeque.removeLeft());
+   assertEquals(77, testDeque.removeLeft());
+   assertEquals(22, testDeque.removeLeft());
  }
 
   @Test
   public void exceptionThrownIfFull() {
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
 
     thrown.expect(Exception.class);
-    testDeque.insertLeft(11);
+    testDeque.insertRight(11);
   }
 
 
   @Test
   public void isFull() {
     assertEquals(false, testDeque.isFull());
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
-    testDeque.insertLeft(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
+    testDeque.insertRight(11);
 
     assertEquals(true, testDeque.isFull());
   }

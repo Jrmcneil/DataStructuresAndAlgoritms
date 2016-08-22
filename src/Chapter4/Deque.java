@@ -27,7 +27,7 @@ public class Deque {
     return size == 0;
   }
 
-  public void insertLeft(long value) throws RuntimeException {
+  public void insertRight(long value) throws RuntimeException {
     if (isFull()) {
       throw new RuntimeException();
     }
@@ -40,7 +40,7 @@ public class Deque {
     return size;
   }
 
-  public long remove() {
+  public long removeLeft() {
     size--;
     int temp = front;
     front = incrementPosition(front);
