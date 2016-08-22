@@ -136,10 +136,22 @@ public class DequeTest {
 
   @Test
   public void insertLeft() {
-    testDeque.insertRight(11);
+    testDeque.insertLeft(11);
     testDeque.insertLeft(22);
 
     assertEquals(2, testDeque.size());
     assertEquals(22, testDeque.removeLeft());
+  }
+
+  @Test
+  public void throwWhenInsertLeftEmpty() {
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+    testDeque.insertLeft(11);
+
+    thrown.expect(RuntimeException.class);
+    testDeque.insertLeft(11);
   }
 }

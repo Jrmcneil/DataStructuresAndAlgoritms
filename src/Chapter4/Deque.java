@@ -37,8 +37,12 @@ public class Deque {
   }
 
   public void insertLeft(long value) {
+    if (isFull()) {
+      throw new RuntimeException();
+    }
     size++;
-    container[++front] = value;
+    front = decrementPosition(front);
+    container[front] = value;
   }
 
   public int size() {
