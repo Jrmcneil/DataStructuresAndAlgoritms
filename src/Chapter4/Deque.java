@@ -36,14 +36,21 @@ public class Deque {
     rear = incrementPosition(rear);
   }
 
+  public void insertLeft(long value) {
+    size++;
+    container[++front] = value;
+  }
+
   public int size() {
     return size;
   }
 
   public long removeLeft() {
-    throwIfEmpty();
-    size--;
     int temp = front;
+
+    throwIfEmpty();
+
+    size--;
     front = incrementPosition(front);
     return container[temp];
   }
@@ -64,6 +71,7 @@ public class Deque {
 
   public long removeRight() {
     throwIfEmpty();
+
     size--;
     rear = decrementPosition(rear);
     return container[rear];

@@ -133,4 +133,13 @@ public class DequeTest {
     thrown.expect(RuntimeException.class);
     testDeque.removeRight();
   }
+
+  @Test
+  public void insertLeft() {
+    testDeque.insertRight(11);
+    testDeque.insertLeft(22);
+
+    assertEquals(2, testDeque.size());
+    assertEquals(22, testDeque.removeLeft());
+  }
 }
