@@ -28,21 +28,23 @@ public class Deque {
   }
 
   public void insertRight(long value) throws RuntimeException {
-    if (isFull()) {
-      throw new RuntimeException();
-    }
+    throwIfFull();
     size++;
     container[rear] = value;
     rear = incrementPosition(rear);
   }
 
   public void insertLeft(long value) {
-    if (isFull()) {
-      throw new RuntimeException();
-    }
+    throwIfFull();
     size++;
     front = decrementPosition(front);
     container[front] = value;
+  }
+
+  private void throwIfFull() throws RuntimeException {
+    if (isFull()) {
+      throw new RuntimeException();
+    }
   }
 
   public int size() {
